@@ -38,4 +38,4 @@ Emp_Working_Days=$((Emp_Working_Days+1))
     dailyWage[$Emp_Working_Days]=$(($empHrs*$Wage_per_Hour))
     totalWage[$Emp_Working_Days]=$(($totalWage[$Emp_Working_Days]+$dailyWage[$Emp_Working_Days]))
 done
-
+    echo ${ttalWage[@]}
